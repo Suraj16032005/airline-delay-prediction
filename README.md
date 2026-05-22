@@ -1,25 +1,109 @@
-# US-Airline-Delay-
-This project aims to analyze and predict airline flight delays in the United States using machine learning techniques. With the rising unpredictability in air travel, timely and accurate delay predictions can help both passengers and airline operators make better decisions.
+# Airline Delay Prediction
 
-**Objective**
-To build a system that can:
-Classify whether a flight will be delayed by 15 minutes or more.
-Predict the actual delay duration in minutes for delayed flights.
+A machine learning project focused on analyzing and predicting flight delays in US airlines using historical flight data. The system predicts whether a flight will be delayed and helps identify key factors affecting airline delays.
 
-**Dataset**
-The dataset contains historical flight data from US airlines, including features like:
-Airline carrier,
-Origin and destination airports,
-Departure and arrival times,
-Distance,
-Delay reasons, etc.
+---
 
-**Methodology**
-Performed data cleaning, null handling, and outlier treatment.
-Applied standardization and encoding for numerical and categorical variables.
-Used data visualization for exploratory data analysis (EDA).
-Built classification models (like Logistic Regression, Random Forest).
-Evaluated performance using metrics like Accuracy, Precision, etc.
+## Objective
 
-**Outcome**
-The models provide insights into the key causes of delays and help in making real-time predictions. This can improve customer satisfaction and assist airlines in better resource management.
+The project aims to:
+
+- Predict whether a flight will be delayed by 15 minutes or more
+- Analyze major causes of flight delays
+- Compare machine learning models for classification performance
+- Improve prediction reliability through feature engineering and preprocessing
+
+---
+
+## Dataset
+
+The dataset contains 100K+ historical US airline flight records including:
+
+- Airline carrier
+- Origin airport
+- Destination airport
+- Departure & arrival timings
+- Distance
+- Delay reasons
+- Flight duration
+
+---
+
+## Features Implemented
+
+- Data Cleaning & Missing Value Handling
+- Outlier Treatment using IQR Capping & Log Transformation
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Removal of Target Leakage Features
+- Data Standardization & Encoding
+- Model Training & Evaluation
+
+---
+
+## Machine Learning Models Used
+
+- Logistic Regression
+- Random Forest Classifier
+
+---
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## Model Performance
+
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | ~97% |
+| Random Forest | ~96% |
+
+Logistic Regression was selected for its simplicity, interpretability, and strong performance.
+
+---
+
+## Key Insights
+
+- Peak-hour departures showed higher delay probabilities
+- Certain airlines consistently experienced longer delays
+- Departure congestion significantly impacted flight timings
+- Feature engineering improved prediction reliability
+
+---
+
+## Project Structure
+
+```bash
+airline-delay-prediction/
+│
+├── data/
+├── notebooks/
+├── visuals/
+├── models/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Future Improvements
+
+- Real-time flight delay prediction
+- Streamlit deployment
+- Weather API integration
+- Live dashboard visualization
+
+---
+
+## Author
+
+Suraj16032005
