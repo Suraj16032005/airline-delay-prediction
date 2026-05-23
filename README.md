@@ -143,3 +143,7 @@ airline-delay-prediction/
 ## Author
 
 Suraj16032005
+
+(# Models Folder
+
+This folder is intended to store trained machine learning models and serialized pipelines for deployment and prediction purposes.)
