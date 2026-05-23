@@ -78,6 +78,42 @@ Logistic Regression was selected for its simplicity, interpretability, and stron
 - Departure congestion significantly impacted flight timings
 - Feature engineering improved prediction reliability
 
+- ---
+
+## Exploratory Data Analysis & Preprocessing
+
+### Distribution of Flight Delays
+
+The original arrival delay data showed heavy right skewness and significant outliers.
+
+![Delay Distribution](screenshots/log.jpeg)
+
+---
+
+### Correlation Heatmap
+
+Correlation analysis helped identify strong feature dependencies between delay-related attributes.
+
+![Correlation Heatmap](screenshots/heatmap.jpeg)
+
+---
+
+### Outlier Analysis Before Transformation
+
+Initial boxplots revealed extreme outliers in arrival delay values.
+
+![Outlier Analysis Before](screenshots/boxplot.jpeg)
+
+---
+
+### Outlier Analysis After Log Transformation
+
+Log transformation and preprocessing significantly reduced skewness and stabilized the distribution.
+
+![Outlier Analysis After](screenshots/after_boxplot.jpeg)
+
+---
+
 ---
 
 ## Project Structure
